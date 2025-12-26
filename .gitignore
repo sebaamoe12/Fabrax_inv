@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+*/node_modules/
+**/node_modules/
+
+# Environment variables
+.env
+*.env
+!.env.example
+
+# Build outputs
+dist/
+build/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Parcel cache
+.parcel-cache/
+.cache/
+
+# Package lock (optional, can be committed if preferred)
+# package-lock.json
+
+# Temp files
+*.tmp
+temp/
