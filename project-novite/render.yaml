@@ -2,6 +2,7 @@ services:
   - type: web
     name: invoice-generator-novite
     env: static
+    rootDir: project-novite
     buildCommand: npm install && npm run build
     staticPublishPath: ./dist
     envVars:
